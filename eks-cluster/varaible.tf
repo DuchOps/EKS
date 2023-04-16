@@ -1,5 +1,5 @@
 variable "cluster-name" {
-  default = "remzy"
+  default = "duchess"
   type    = string
 }
 
@@ -14,22 +14,22 @@ variable "AWS_REGION" {
 }
 
 variable "keypair-name" {
-  default = "class"
+  default = "Walmart-KP"
   type    = string
 }
 
 variable "vpc_id" {
   type = string
-  description = "vpc-06c64054c3cd567a8"
-  default = "vpc-06c64054c3cd567a8"
+  description = "vpc-008dc8f1fbef3bff0"
+  default = "vpc-008dc8f1fbef3bff0"
 }
 
 variable "subnet_id" {
   description = "The ID of the subnets to use"
   type        = list(string)
   default     = [
-    "subnet-0ab3ce092683ac49d",
-    "subnet-065efd20a7d1a2878"
+    "subnet-0ef61b08c09bd4724",
+    "subnet-00abc14b3d4c9d653"
   ]
 }
 
