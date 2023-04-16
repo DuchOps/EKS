@@ -29,7 +29,7 @@ variable "subnet_id" {
   type        = list(string)
   default     = [
     "subnet-0ef61b08c09bd4724",
-    "subnet-00abc14b3d4c9d653"
+    "subnet-0fe0d4df97c3a0e15"
   ]
 }
 
