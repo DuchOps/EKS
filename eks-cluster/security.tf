@@ -1,5 +1,5 @@
 resource "aws_security_group" "eks-master-sg" {
-    name        = "duchess"
+    name        = "duchess1"
     description = "Cluster communication with worker nodes"
     vpc_id      = var.vpc_id
 
@@ -28,7 +28,7 @@ resource "aws_security_group" "eks-master-sg" {
 }
 
 resource "aws_security_group" "eks-node-sg" {
-        name        = "duch"
+        name        = "duch1"
         description = "Security group for all nodes in the cluster"
         vpc_id      = var.vpc_id
         

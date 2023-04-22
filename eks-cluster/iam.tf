@@ -1,5 +1,5 @@
 resource "aws_iam_role" "eks_cluster" {
-  name = "duchess"
+  name = "duchess1"
 
   assume_role_policy = <<POLICY
 {
@@ -28,7 +28,7 @@ resource "aws_iam_role_policy_attachment" "AmazonEKSServicePolicy" {
 }
 
 resource "aws_iam_role" "eks_nodes" {
-  name = "duchess-nodes"
+  name = "duchess1-nodes"
 
   assume_role_policy = <<POLICY
 {

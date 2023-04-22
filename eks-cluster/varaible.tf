@@ -1,5 +1,5 @@
 variable "cluster-name" {
-  default = "duchess"
+  default = "duchess1"
   type    = string
 }
 
@@ -28,8 +28,8 @@ variable "subnet_id" {
   description = "The ID of the subnets to use"
   type        = list(string)
   default     = [
-    "subnet-0ef61b08c09bd4724",
-    "subnet-0fe0d4df97c3a0e15"
+    "subnet-00abc14b3d4c9d653",
+    "subnet-0924ad3e42b4f202b"
   ]
 }
 
